@@ -1,0 +1,11 @@
+git config --global user.name "Kauã Maia de Abreu"
+git config --global user.email "seu-email@exemplo.com"
+
+git clone URL_DO_REPOSITORIO
+cd atividade-git-github
+
+echo "Olá! Atividade prática de Git e GitHub." > meu_arquivo.txt
+
+git add meu_arquivo.txt
+git commit -m "Adiciona meu_arquivo.txt"
+git push origin main
